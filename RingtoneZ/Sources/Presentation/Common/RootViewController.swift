@@ -12,8 +12,6 @@ class RootViewController: UIViewController {
     
     private var firstViewController: UIViewController?
     
-    private var clientHomeTabViewController: LoginViewController?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -36,9 +34,6 @@ class RootViewController: UIViewController {
         
         if let firstVC = vc {
             firstViewController =  firstVC
-        } else {
-            clientHomeTabViewController = clientHomeTabViewController ?? LoginViewController.newInstance()
-            firstViewController = clientHomeTabViewController
         }
         
         guard let cvc = firstViewController else {

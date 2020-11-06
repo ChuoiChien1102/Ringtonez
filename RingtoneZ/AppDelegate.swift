@@ -16,23 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        setSplashScreen()
-        return true
-    }
-    
-    private func setSplashScreen() -> Void {
-        let lauchScreenStoryboard = UIStoryboard.init(name: "LaunchScreen", bundle: nil)
-        let rootVC = lauchScreenStoryboard.instantiateViewController(withIdentifier: "SplashViewController")
-        window?.rootViewController = rootVC
-        window?.makeKeyAndVisible()
-        Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(dissmissSplashViewController), userInfo: nil, repeats: false)
-    }
-    
-    @objc func dissmissSplashViewController() {
-        let navi = UINavigationController(rootViewController: LoginViewController.newInstance(), navigationBarClass: NavigationBar.self)
-        rootViewController.setRootView(navi)
+        let navi = UINavigationController(rootViewController: Intro1ViewController.newInstance(), navigationBarClass: NavigationBar.self)
+        if let skip = UIUtils.getObjectFromUserDefault("FirstInstall") as? Bool, skip == true {
+            rootViewController.setRootView(navi)
+        } else {
+            rootViewController.setRootView(navi)
+        }
         window?.rootViewController = rootViewController
         window?.makeKeyAndVisible()
+        return true
     }
     
     func applicationWillResignActive(_ application: UIApplication) {

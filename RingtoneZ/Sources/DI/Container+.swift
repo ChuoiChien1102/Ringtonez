@@ -18,7 +18,9 @@ extension Container {
         ApiSeviceAssembly(),
         
         //ViewController
-        LoginViewControllerAssembly(),
+        Intro1ViewControllerAssembly(),
+        Intro2ViewControllerAssembly(),
+        IAPViewControllerAssembly(),
         
         ]).resolver
 }

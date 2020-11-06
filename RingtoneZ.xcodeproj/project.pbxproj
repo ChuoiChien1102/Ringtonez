@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15416A8F2553AA1D002B0CC1 /* Intro1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15416A8E2553AA1C002B0CC1 /* Intro1ViewController.swift */; };
+		15416AA125544FA1002B0CC1 /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15416AA025544FA1002B0CC1 /* UIButton+.swift */; };
+		15416AAC25545F2E002B0CC1 /* Intro2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15416AAB25545F2E002B0CC1 /* Intro2ViewController.swift */; };
+		15416AB12554FCAF002B0CC1 /* IAPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15416AB02554FCAE002B0CC1 /* IAPViewController.swift */; };
 		15677275254FBCFB00E0CAF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15677274254FBCFB00E0CAF7 /* AppDelegate.swift */; };
 		1567728C254FBCFC00E0CAF7 /* RingtoneZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1567728B254FBCFC00E0CAF7 /* RingtoneZTests.swift */; };
 		15677297254FBCFC00E0CAF7 /* RingtoneZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15677296254FBCFC00E0CAF7 /* RingtoneZUITests.swift */; };
@@ -25,7 +29,6 @@
 		15677328254FC0D600E0CAF7 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156772DC254FC0D600E0CAF7 /* NavigationBar.swift */; };
 		15677329254FC0D600E0CAF7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156772DD254FC0D600E0CAF7 /* RootViewController.swift */; };
 		1567732B254FC0D600E0CAF7 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156772DF254FC0D600E0CAF7 /* TabbarController.swift */; };
-		1567734E254FC0D600E0CAF7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1567730D254FC0D600E0CAF7 /* LoginViewController.swift */; };
 		15677350254FC0D600E0CAF7 /* LoginRespone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15677311254FC0D600E0CAF7 /* LoginRespone.swift */; };
 		15677353254FC0D600E0CAF7 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15677314254FC0D600E0CAF7 /* ApiRouter.swift */; };
 		15677354254FC0D600E0CAF7 /* ApiSevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15677315254FC0D600E0CAF7 /* ApiSevice.swift */; };
@@ -62,6 +65,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15416A8E2553AA1C002B0CC1 /* Intro1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro1ViewController.swift; sourceTree = "<group>"; };
+		15416AA025544FA1002B0CC1 /* UIButton+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
+		15416AAB25545F2E002B0CC1 /* Intro2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro2ViewController.swift; sourceTree = "<group>"; };
+		15416AB02554FCAE002B0CC1 /* IAPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPViewController.swift; sourceTree = "<group>"; };
 		15677271254FBCFB00E0CAF7 /* RingtoneZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingtoneZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15677274254FBCFB00E0CAF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15677282254FBCFC00E0CAF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,7 +93,6 @@
 		156772DC254FC0D600E0CAF7 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		156772DD254FC0D600E0CAF7 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		156772DF254FC0D600E0CAF7 /* TabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
-		1567730D254FC0D600E0CAF7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		15677311254FC0D600E0CAF7 /* LoginRespone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRespone.swift; sourceTree = "<group>"; };
 		15677314254FC0D600E0CAF7 /* ApiRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
 		15677315254FC0D600E0CAF7 /* ApiSevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiSevice.swift; sourceTree = "<group>"; };
@@ -133,6 +139,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15416A8D2553AA1C002B0CC1 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				15416A8E2553AA1C002B0CC1 /* Intro1ViewController.swift */,
+				15416AAB25545F2E002B0CC1 /* Intro2ViewController.swift */,
+				15416AB02554FCAE002B0CC1 /* IAPViewController.swift */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
 		15677268254FBCFB00E0CAF7 = {
 			isa = PBXGroup;
 			children = (
@@ -300,17 +316,9 @@
 		156772E0254FC0D600E0CAF7 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				1567730C254FC0D600E0CAF7 /* Login */,
+				15416A8D2553AA1C002B0CC1 /* Intro */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		1567730C254FC0D600E0CAF7 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				1567730D254FC0D600E0CAF7 /* LoginViewController.swift */,
-			);
-			path = Login;
 			sourceTree = "<group>";
 		};
 		1567730E254FC0D600E0CAF7 /* Services */ = {
@@ -345,6 +353,7 @@
 				15677385254FF9ED00E0CAF7 /* UITableView+.swift */,
 				15677386254FF9ED00E0CAF7 /* UIColor+.swift */,
 				15677387254FF9ED00E0CAF7 /* UIWebView+.swift */,
+				15416AA025544FA1002B0CC1 /* UIButton+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -559,15 +568,18 @@
 				15677354254FC0D600E0CAF7 /* ApiSevice.swift in Sources */,
 				1567738B254FF9ED00E0CAF7 /* UIViewController+.swift in Sources */,
 				1567738F254FF9ED00E0CAF7 /* UIColor+.swift in Sources */,
+				15416AA125544FA1002B0CC1 /* UIButton+.swift in Sources */,
 				1567732B254FC0D600E0CAF7 /* TabbarController.swift in Sources */,
+				15416AB12554FCAF002B0CC1 /* IAPViewController.swift in Sources */,
 				1567731E254FC0D600E0CAF7 /* UserModel.swift in Sources */,
 				15677356254FC0D600E0CAF7 /* BaseError.swift in Sources */,
 				1567738C254FF9ED00E0CAF7 /* UILabel+.swift in Sources */,
+				15416A8F2553AA1D002B0CC1 /* Intro1ViewController.swift in Sources */,
 				15677353254FC0D600E0CAF7 /* ApiRouter.swift in Sources */,
 				1567738A254FF9ED00E0CAF7 /* String+.swift in Sources */,
+				15416AAC25545F2E002B0CC1 /* Intro2ViewController.swift in Sources */,
 				15677355254FC0D600E0CAF7 /* ApiConfig.swift in Sources */,
 				15677390254FF9ED00E0CAF7 /* UIWebView+.swift in Sources */,
-				1567734E254FC0D600E0CAF7 /* LoginViewController.swift in Sources */,
 				1567731B254FC0D600E0CAF7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
