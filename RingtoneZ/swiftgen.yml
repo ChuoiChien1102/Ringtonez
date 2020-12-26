@@ -1,0 +1,9 @@
+ib:
+  inputs: RingtoneZ/Presentation/Storyboard
+  outputs:
+    - templateName: scenes-swift4
+      output: RingtoneZ/Generated/Storyboards/Storyboards.swift
+
+
+
+

@@ -1,0 +1,80 @@
+platform :ios, '11.0'
+use_frameworks!
+
+def common_pods
+  
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
+  pod 'RxDataSources', '~> 4.0'
+  pod "RxGesture"
+  pod 'RxTheme', '~> 4.0'
+  pod 'RxViewController'
+  #  pod 'RxTest'
+  pod 'Moya/RxSwift'
+  pod 'SwiftyJSON'
+  pod 'RxSwiftExt', '~> 5'
+  
+  pod 'R.swift'
+  pod 'ChameleonFramework'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'SnapKit', '~> 5.0.0'
+  pod 'Alamofire', '~> 5.2'
+  pod 'ObjectMapper'
+  pod 'KRProgressHUD'
+  pod 'SwiftyStoreKit'
+  pod 'SwiftyBeaver'
+  pod 'ActiveLabel'
+  pod 'AFDateHelper', '~> 4.3.0'
+  pod 'SwiftyAttributes'
+  pod 'UIScrollView-InfiniteScroll', '~> 1.1.0'
+  pod 'DZNEmptyDataSet'
+  pod 'RealmSwift'
+  pod 'Then'
+  pod 'IHKeyboardAvoiding'
+  pod 'MKRingProgressView'
+  pod 'EFCountingLabel'
+  pod 'Spring', :git => 'https://github.com/MussaCharles/Spring.git'
+  pod 'SwiftNotificationCenter'
+  pod 'FCFileManager'
+  pod 'SwiftyUserDefaults', '~> 5.0'
+  pod 'DJSemiModalViewController' #Popup
+  pod "SwiftRater"
+  pod 'SDCAlertView'
+  pod 'JGProgressHUD'
+  pod 'DLLocalNotifications'
+  pod 'FittableFontLabel'
+  pod 'DeviceKit', '~> 4.0'
+  pod 'CHIPageControl', '~> 0.1.3'
+  #Extensitions
+  pod 'SwifterSwift/Foundation'
+  pod 'SwifterSwift/UIKit'
+  pod 'SwifterSwift/SwiftStdlib'
+  pod 'SwifterSwift/AppKit'
+  pod 'SwifterSwift/CoreGraphics'
+  
+  #Permission
+  pod 'Permission/Notifications'
+  pod 'Permission/Microphone'
+  pod 'Permission/MediaLibrary'
+
+  pod "SoundWave"
+  
+  #pod "Shift"
+  #Facebook
+  #pod 'FBSDKCoreKit'
+  #pod 'FBSDKLoginKit'
+  #  pod 'FBSDKShareKit'
+  #  pod 'FBSDKPlacesKit'
+  
+  #Google
+  #pod 'GoogleSignIn'
+  #pod 'Firebase/Core'
+  pod 'Firebase/Analytics'
+  
+end
+
+
+
+target 'ringtoney' do
+  common_pods
+end

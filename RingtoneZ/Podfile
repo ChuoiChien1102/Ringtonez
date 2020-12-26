@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'RingtoneZ' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+pod 'IQKeyboardManager', '6.2.1'
+pod 'Kingfisher', '4.10.0'
+pod 'Alamofire', '4.8.2'
+pod 'ObjectMapper', '3.4.2'
+pod 'AlamofireObjectMapper', '5.2.0'
+pod 'Swinject', '2.6.0'
+pod 'FCFileManager'
+pod "SoundWave"
+pod 'SnapKit', '~> 5.0.0'
+pod 'Then'
+pod 'RealmSwift'
+pod 'SwiftNotificationCenter'
+pod 'SDCAlertView'
+pod 'JGProgressHUD'
+pod "SwiftRater"
+pod 'Permission/Notifications'
+pod 'Permission/Microphone'
+pod 'Permission/MediaLibrary'
+pod 'SwiftyStoreKit'
+pod 'Firebase/Analytics'
+
+end
